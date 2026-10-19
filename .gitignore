@@ -1,0 +1,43 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Environnements virtuels
+.venv/
+venv/
+env/
+
+# Secrets et configurations locales
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Données locales
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Modèles et artefacts volumineux
+models/
+artifacts/
+*.parquet
+*.model
+*.pkl
+*.joblib
+
+# Logs et fichiers temporaires
+*.log
+logs/
+tmp/
+temp/
+
+# IDE et système
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
