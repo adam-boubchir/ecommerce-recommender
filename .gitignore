@@ -41,3 +41,10 @@ temp/
 .idea/
 .DS_Store
 Thumbs.db
+
+# Donnees du projet
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
