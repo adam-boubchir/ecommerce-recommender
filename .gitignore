@@ -1,4 +1,5 @@
-﻿# Python
+﻿
+# Python
 __pycache__/
 *.py[cod]
 .pytest_cache/
@@ -41,10 +42,3 @@ temp/
 .idea/
 .DS_Store
 Thumbs.db
-
-# Donnees du projet
-data/raw/*
-data/processed/*
-!data/raw/.gitkeep
-!data/processed/.gitkeep
-
